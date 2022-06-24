@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body{    
+    background-color: black;
+}
+.everything {
+    background-image: url('bg-intro-desktop.png');
+    background-color: #FF7978;
+    display: flex;
+    width: 160vh;
+    padding: 40px 0px 40px 10px;
+    position: absolute;
+    top: 7%;
+    left:11%;
+}
+.fill{
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #D87171;
+}
+.left{
+    margin-right: 50px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.right{
+
+    padding-top: 150px;
+    padding-left: 110px;
+    padding-right: 40px;
+    width: 370px;
+    color: white;
+}
+.bold{
+    margin-bottom: 20px;
+}
+.shortnote{
+    color: #FFEDE7;
+}
+.topleft{
+    background-color: #5E54A4;
+    margin-top: 42px;
+    margin-bottom: 10px;
+    width: 370px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #D87171;
+  
+}
+.topleftcontent{
+    padding: 12px 0px;
+}
+.click{
+    background-color: hsl(154, 59%, 51%);
+    width: 310px;
+    padding: 14px 10px;
+    border: 1px   black ;
+    margin-left: 30px;
+    border-radius: 5px; 
+    color: white;
+}
+.shame input[type = "text"] {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid black ;
+    padding: 14px 0px 14px 20px ;
+    width: 290px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.basetext{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    color: #D3D2D7;
+}
+#colour{
+    color: red;
+}
+.shame .click:hover{
+    cursor: pointer;
+}
